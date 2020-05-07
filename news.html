@@ -1,0 +1,22 @@
+<html>
+    <head>
+
+        <link rel="stylesheet" href="news.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.bundle.js"></script>
+    </head>
+
+    <body>
+        <h1>U.S COVID-19 Tests Taken :</h1>
+        <div onload="displayLineChart();" > 
+            <div class="box" >
+                <canvas id="lineChart" height="200" width="1000"></canvas>
+            </div>
+        </div>
+
+         <h1>World live top and breaking news headlines :</h1>
+         <input type="text" id="search_news" placeholder="Country Code EXP: US ">
+         <button id="search_news_button">Click</button>
+         <ol id="display_news"></ol>
+        <script src="news.js"></script>
+    </body>
+</html>
