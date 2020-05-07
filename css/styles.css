@@ -1,120 +1,144 @@
 @import url("https://fonts.googleapis.com/css?family=Raleway:200,300,400,500,600");
 
 body {
-    background: linear-gradient(#e88079, transparent);
-    color: #444444;
-    /* animation: backgroundimage 5s infinite; */
+  background: linear-gradient(#e88079, transparent);
+  color: #444444;
+  /* animation: backgroundimage 5s infinite; */
 }
 
-body, input, select, textarea {
-    font-family: "Raleway", Arial, Helvetica, sans-serif;
-    font-weight: 400;
-    font-size: 1rem;
-    line-height: 1.65;
+body,
+input,
+select,
+textarea {
+  font-family: "Raleway", Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.65;
+}
+
+.link {
+  color: whitesmoke;
+}
+
+#news {
+  color: white;
 }
 
 #main {
-    position: relative;
-    text-align: center;
-    top: 45%;
+  position: relative;
+  text-align: center;
+  top: 15%;
 }
 
-input[type=text] {
-    border: 1px transparent;
-    border-radius: 3rem;
+input[type="text"] {
+  border: 1px transparent;
+  border-radius: 3rem;
 }
 
 input::placeholder {
-    text-align: center;
+  text-align: center;
 }
 
 #textbox {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 #statebox {
-    margin-right: 25px;
+  margin-right: 25px;
 }
 
 .btn {
-    padding: 3px;
-    border: 5px solid transparent;
-
+  padding: 3px;
+  border: 5px solid transparent;
 }
 
 #infoCards {
-    display: flex; 
-    justify-content: space-evenly;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 #WHOcard img {
-    width: 100px;
-    height: 100px; 
-    margin-left: 93px;
+  width: 100px;
+  height: 100px;
+  margin-left: 93px;
 }
 
 #CDCcard img {
-    width: 100px;
-    height: 100px;
-    margin-left: 93px;
+  width: 100px;
+  height: 100px;
+  margin-left: 93px;
 }
-
-
-
-
-
 
 .fadein {
-    display: inline-block;
-    font-size: 30px;
-    color: white; 
-    text-transform: none;
-    margin: 0 20px;
-    opacity: 3.0;
-    animation: fadeIn ease infinite;
-    -webkit-animation: fadeIn ease 10s;
+  display: inline-block;
+  font-size: 30px;
+  color: white;
+  text-transform: none;
+  margin: 0 20px;
+  opacity: 3;
+  animation: fadeIn ease infinite;
+  -webkit-animation: fadeIn ease 10s;
 }
-        
+
 @keyframes fadeIn {
-    0% {opacity:0;}
-    100% {opacity:1;}
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
-        
+
 @-moz-keyframes fadeIn {
-    0% {opacity:0;}
-     100% {opacity:1;}
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
-        
+
 @-webkit-keyframes fadeIn {
-    0% {opacity:0;}
-    100% {opacity:1;}
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
-        
+
 @-o-keyframes fadeIn {
-    0% {opacity:0;}
-    100% {opacity:1;}
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
-        
+
 @-ms-keyframes fadeIn {
-    0% {opacity:0;}
-    100% {opacity:1;}
-        
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 @media screen and (max-width: 500px) {
-    #textbox {
-        display: flex;
-        flex-direction: column;
-        align-items: start; 
-    }
+  #textbox {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
 
-    #WHOcard {
-        display: none;
-    }
+  #WHOcard {
+    display: none;
+  }
 
-    #CDCcard {
-        display: none; 
-    }
+  #CDCcard {
+    display: none;
+  }
 }
