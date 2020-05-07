@@ -1,7 +1,9 @@
 @import url("https://fonts.googleapis.com/css?family=Raleway:200,300,400,500,600");
 
 body {
-  background: linear-gradient(#e88079, transparent);
+
+  background: linear-gradient(#87c495, transparent);
+
   color: #444444;
   /* animation: backgroundimage 5s infinite; */
 }
@@ -80,6 +82,12 @@ input::placeholder {
   opacity: 3;
   animation: fadeIn ease infinite;
   -webkit-animation: fadeIn ease 10s;
+}
+
+#userOutput {
+  display: flex;
+  margin-left: 400px;
+  padding-top: 50px;
 }
 
 @keyframes fadeIn {
