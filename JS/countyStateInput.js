@@ -35,7 +35,7 @@ enterButton.addEventListener("click", function () {
           return;
         }
         let stateFacts = `<ul class="output">
-                            <h5>${state.state} as of ${state.lastUpdateEt}</h5>
+                            <h5><p>${state.state} as of ${state.lastUpdateEt}<p></h5>
                             <p>Number Infected: ${state.positive}</p>
                             <p>Hospitalized Currently: ${state.hospitalizedCurrently}</p>
                             <p>Deaths: ${state.death}</p>
