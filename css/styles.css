@@ -1,9 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Raleway:200,300,400,500,600");
 
 body {
-
   background: linear-gradient(#87c495, transparent);
-
   color: #444444;
   /* animation: backgroundimage 5s infinite; */
 }
@@ -86,7 +84,7 @@ input::placeholder {
 
 #userOutput {
   display: flex;
-  margin-left: 400px;
+  justify-content: center;
   padding-top: 50px;
 }
 
