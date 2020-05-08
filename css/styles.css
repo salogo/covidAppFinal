@@ -22,6 +22,8 @@ textarea {
 
 #news {
   color: white;
+  display: flex;
+  flex-direction: column;
 }
 
 #main {
