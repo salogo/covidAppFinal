@@ -1,11 +1,15 @@
 <html>
   <head>
+    <ul class="nav">
+      <li class="nav-item">
+          <a class="nav-link" href="pages/newsFeed.html">Live COVID-19 News</a>
+        </li>
     <link rel="stylesheet" href="../css/styles.css" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.bundle.js"></script>
   </head>
 
   <body>
-    <h1>COVID-19 Tests Taken in the U.S.</h1>
+    <h1 id="statisticsH1">COVID-19 Tests Taken in the U.S.</h1>
     <div onload="displayLineChart();">
       <div class="box">
         <canvas id="lineChart" height="200" width="1000"></canvas>

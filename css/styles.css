@@ -88,6 +88,10 @@ input::placeholder {
   padding-top: 50px;
 }
 
+#statisticsH1 {
+  color: white;
+}
+
 @keyframes fadeIn {
   0% {
     opacity: 0;
@@ -134,17 +138,23 @@ input::placeholder {
 }
 
 @media screen and (max-width: 500px) {
-  #textbox {
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-  }
-
   #WHOcard {
     display: none;
   }
 
   #CDCcard {
     display: none;
+  }
+}
+
+@media screen and (min-width: 100px) and (max-width: 500px) {
+  #userOutput {
+    display: flex;
+    flex-direction: column;
+  }
+  #textbox {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
   }
 }
