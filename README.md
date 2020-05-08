@@ -29,3 +29,10 @@ API
 NovelCOVID API : https://corona.lmao.ninja/v2/countries
 
 Objective: To provide information regarding COVID-19 cases globally and locally. 
+
+
+
+COVID-19 Tests Graph and News Headlines:
+(A)-technology I used : 1-html 2-css  3-js  4 js bin library                                     
+(B)why I created ? : user can track the latest news and stay informed                                                                   (C)-what business problem it resolve ?: The Lab can use to apply for supply and demand so need to import test kit or anything else more or less than they need
+
