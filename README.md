@@ -9,22 +9,35 @@ Our app was designed for the user to find information on local info on COVID-19 
 
 TEAM MEMBERS
 Travis Wright
-Contribution:
+Contribution:HTML,JS,UI
 
 Github:https://github.com/sivart-wright
+Linkedin:https://www.linkedin.com/in/travis-wright-43706b41/
+
+
 
 Ricky Paige
-Contribution:
+Contribution:UI 
 
 Github:https://github.com/rickpaige
 
+
+
+
 Zakar
+Contribution:
+
+
+Github: 
+
+
 
 
 David Cuero
 Contribution:Coronavirus Map App
 
 Github:https://github.com/devouracid
+Linkedin:https://www.linkedin.com/in/david-cuero-31385a21/
 
 COVID-19 Map 
 
